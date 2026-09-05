@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { box-sizing: border-box; margin: 0; font-family: system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif; }
+  body { width: 380px; max-height: 520px; overflow: hidden; display: flex; flex-direction: column; background: #fff; color: #1f2329; }
+  header { padding: 12px 14px; border-bottom: 1px solid #ececf0; display: flex; align-items: center; justify-content: space-between; }
+  header h1 { font-size: 15px; font-weight: 700; }
+  .count { font-size: 12px; color: #6b7280; }
+  .toolbar { display: flex; gap: 6px; padding: 8px 12px; border-bottom: 1px solid #f0f0f3; }
+  .toolbar button { flex: 1; border: none; border-radius: 6px; padding: 7px 0; font-size: 12.5px; cursor: pointer; font-weight: 600; }
+  .b1 { background: #2563eb; color: #fff; } .b1:hover { background: #1d4ed8; }
+  .b2 { background: #eef2ff; color: #4338ca; } .b2:hover { background: #e0e7ff; }
+  .b3 { background: #fef2f2; color: #b91c1c; } .b3:hover { background: #fee2e2; }
+  #list { flex: 1; overflow-y: auto; }
+  /* 登录区 */
+  .login-section { padding: 10px 12px; border-bottom: 1px solid #f0f0f3; background: #f0f7ff; }
+  .login-section .login-row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+  .login-section .login-row label { font-size: 12px; color: #374151; width: 64px; flex: none; }
+  .login-section .login-row input { flex: 1; padding: 6px 8px; font-size: 12px; border: 1px solid #d9dce1; border-radius: 6px; outline: none; }
+  .login-section .login-row input:focus { border-color: #2563eb; }
+  .login-section .login-btn { width: 100%; border: none; border-radius: 6px; padding: 7px 0; font-size: 13px; cursor: pointer; background: #16a34a; color: #fff; font-weight: 600; margin-top: 2px; }
+  .login-section .login-btn:hover { background: #15803d; }
+  .login-section .login-btn:disabled { opacity: .5; cursor: not-allowed; }
+  .login-section .login-hint { font-size: 11.5px; margin-top: 5px; }
+  .login-section .user-info { display: flex; align-items: center; justify-content: space-between; }
+  .login-section .user-info span { font-size: 12px; color: #16a34a; font-weight: 600; }
+  .login-section .logout-btn { border: none; background: none; color: #9ca3af; font-size: 11px; cursor: pointer; text-decoration: underline; }
+  .login-note { font-size: 11px; color: #9ca3af; padding: 6px 12px; border-bottom: 1px solid #f0f0f3; background: #fafbfc; }
+  /* 项目列表 */
+  .item { padding: 9px 14px; border-bottom: 1px solid #f5f5f7; display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .item .info { flex: 1; min-width: 0; }
+  .item .t { font-size: 13px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .item .sub { font-size: 11.5px; color: #6b7280; margin-top: 2px; }
+  .item .del { border: none; background: none; color: #9ca3af; cursor: pointer; font-size: 15px; padding: 2px 4px; border-radius: 4px; }
+  .item .del:hover { color: #ef4444; background: #fee2e2; }
+  .empty { padding: 40px 16px; text-align: center; color: #9ca3af; font-size: 13px; line-height: 1.7; }
+  .toast { position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%); background: #111827; color: #fff;
+    padding: 8px 14px; border-radius: 6px; font-size: 12px; opacity: 0; transition: opacity .25s; pointer-events: none; white-space: nowrap; }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Boss 岗位快抓</h1>
+    <span class="count" id="count">0 条</span>
+  </header>
+  <div class="toolbar">
+    <button class="b1" id="manual">抓当前页</button>
+    <button class="b2" id="copyTsv">复制为表格</button>
+    <button class="b3" id="clear">清空</button>
+  </div>
+  <!-- 登录区（首次需要，之后自动保持） -->
+  <div class="login-section" id="login-section">
+    <div id="login-form">
+      <div class="login-row"><label>用户名</label><input id="l-user" placeholder="你的账号" autocomplete="username"></div>
+      <div class="login-row"><label>密码</label><input id="l-pwd" type="password" placeholder="你的密码" autocomplete="current-password"></div>
+      <button class="login-btn" id="login-btn">登录云端</button>
+      <div class="login-hint" id="login-hint"></div>
+    </div>
+    <div id="user-info" style="display:none">
+      <div class="user-info">
+        <span>✅ 已登录：<b id="logged-user"></b></span>
+        <button class="logout-btn" id="logout-btn">退出</button>
+      </div>
+    </div>
+  </div>
+  <div class="login-note">首次使用需登录，之后自动保持登录状态。登录后抓取的岗位会自动同步到云端看板。</div>
+  <div id="list"></div>
+  <div class="toast" id="toast"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,262 @@
+[
+  {
+    "platform": "boss", "raw_id": "b1001",
+    "company": "珀莱雅化妆品股份有限公司", "title": "电商运营助理",
+    "salary_raw": "7-11K·13薪", "city": "杭州", "district": "西湖区",
+    "experience": "1-3年", "education": "本科",
+    "tags": ["天猫", "淘宝", "直通车", "数据分析", "五险一金"],
+    "jd": "负责天猫旗舰店日常运营，包含商品上下架、活动报名、数据监控。要求熟悉生意参谋，会看转化率和 ROI，有美妆类目经验优先。",
+    "hr_name": "李女士", "hr_active": "刚刚活跃", "published_at": "今天",
+    "url": "https://example.com/boss/b1001", "status": "已沟通"
+  },
+  {
+    "platform": "liepin", "raw_id": "l2001",
+    "company": "珀莱雅化妆品（杭州）有限公司", "title": "电商运营助理（天猫旗舰店）",
+    "salary_raw": "6-10K", "city": "杭州-西湖区",
+    "experience": "1-3年", "education": "本科",
+    "tags": ["天猫", "淘宝", "生意参谋"],
+    "jd": "天猫旗舰店运营，商品管理、活动报名、数据监控。",
+    "hr_name": "陈顾问", "hr_active": "今日活跃", "published_at": "2026-09-02",
+    "url": "https://example.com/liepin/l2001", "status": "待处理"
+  },
+  {
+    "platform": "boss", "raw_id": "b1002",
+    "company": "杭州星麦电子商务有限公司", "title": "电商运营专员",
+    "salary_raw": "8-12K·13薪", "city": "杭州", "district": "滨江区",
+    "experience": "3-5年", "education": "本科",
+    "tags": ["抖音", "直播", "短视频", "小红书", "推广"],
+    "jd": "负责抖音小店与直播间的日常运营，含选品、脚本配合、投流跟进。要求熟悉抖音电商罗盘，有直播间操盘经验。",
+    "hr_name": "王先生", "hr_active": "刚刚活跃", "published_at": "今天",
+    "url": "https://example.com/boss/b1002", "status": "已投递"
+  },
+  {
+    "platform": "51job", "raw_id": "w3001",
+    "company": "顾家家居股份有限公司", "title": "电商运营助理（京东）",
+    "salary_raw": "6000-9000元", "city": "杭州", "district": "钱塘区",
+    "experience": "1-3年", "education": "本科",
+    "tags": ["京东", "店铺运营", "数据分析"],
+    "jd": "京东自营店铺运营支持，协助店长做活动提报、库存跟进、竞品监控。家具类目。",
+    "hr_name": "张女士", "hr_active": "3日内活跃", "published_at": "2026-09-01",
+    "url": "https://example.com/51job/w3001", "status": "待处理"
+  },
+  {
+    "platform": "zhilian", "raw_id": "z4001",
+    "company": "杭州壹网壹创科技股份有限公司", "title": "电商运营助理（代运营）",
+    "salary_raw": "6-9K·13薪", "city": "杭州", "district": "滨江区",
+    "experience": "1-3年", "education": "本科",
+    "tags": ["天猫", "代运营", "推广", "直通车"],
+    "jd": "服务美妆个护类目头部品牌，负责店铺日常运营与推广执行。TP 模式，节奏快，成长空间大。",
+    "hr_name": "赵先生", "hr_active": "今日活跃", "published_at": "2026-09-02",
+    "url": "https://example.com/zhilian/z4001", "status": "待处理"
+  },
+  {
+    "platform": "boss", "raw_id": "b1003",
+    "company": "九阳股份有限公司", "title": "电商运营助理",
+    "salary_raw": "7-10K", "city": "杭州", "district": "钱塘区",
+    "experience": "1-3年", "education": "本科",
+    "tags": ["天猫", "拼多多", "店铺运营", "数据分析"],
+    "jd": "小家电类目天猫与拼多多店铺运营，负责链接维护、评价管理、活动落地。要求 Excel 熟练。",
+    "hr_name": "孙女士", "hr_active": "3日内活跃", "published_at": "2026-09-01",
+    "url": "https://example.com/boss/b1003", "status": "已投递"
+  },
+  {
+    "platform": "boss", "raw_id": "b1004",
+    "company": "杭州遥望网络科技有限公司", "title": "直播运营助理",
+    "salary_raw": "8-12K·14薪", "city": "杭州", "district": "余杭区",
+    "experience": "3-5年", "education": "本科",
+    "tags": ["直播", "抖音", "选品", "短视频", "ROI"],
+    "jd": "配合主播做直播全流程，含排品、脚本、场控、复盘。要求跟过完整直播场次，懂流量投放逻辑。",
+    "hr_name": "周女士", "hr_active": "刚刚活跃", "published_at": "今天",
+    "url": "https://example.com/boss/b1004", "status": "面试中"
+  },
+  {
+    "platform": "lagou", "raw_id": "g5001",
+    "company": "云集共享科技有限公司", "title": "电商运营专员",
+    "salary_raw": "0.7-1.1万", "city": "杭州", "district": "余杭区",
+    "experience": "3-5年", "education": "本科",
+    "tags": ["社群", "推广", "转化率", "店铺"],
+    "jd": "会员电商平台运营，负责社群转化与活动策划。要求有私域运营经验。",
+    "hr_name": "吴先生", "hr_active": "今日活跃", "published_at": "2026-09-03",
+    "url": "https://example.com/lagou/g5001", "status": "待处理"
+  },
+  {
+    "platform": "boss", "raw_id": "b1005",
+    "company": "杭州万事利丝绸文化股份有限公司", "title": "电商运营助理",
+    "salary_raw": "6-9K", "city": "杭州", "district": "上城区",
+    "experience": "1-3年", "education": "大专",
+    "tags": ["淘宝", "天猫", "店铺运营"],
+    "jd": "丝绸文创产品线上店铺运营，协助店长完成上新与活动。薪资含绩效。",
+    "hr_name": "郑女士", "hr_active": "本周活跃", "published_at": "2026-08-28",
+    "url": "https://example.com/boss/b1005", "status": "待处理"
+  },
+  {
+    "platform": "yupao", "raw_id": "y6001",
+    "company": "杭州鼎盛网络科技有限公司", "title": "电商运营助理（接受小白）",
+    "salary_raw": "5000-8000元+提成", "city": "杭州", "district": "拱墅区",
+    "experience": "经验不限", "education": "大专",
+    "tags": ["刷单", "淘宝"],
+    "jd": "负责店铺基础运营与销量维护，需配合完成刷单任务提升店铺权重，无责底薪+高提成。",
+    "hr_name": "刘经理", "hr_active": "今日活跃", "published_at": "2026-09-02",
+    "url": "https://example.com/yupao/y6001", "status": "待处理"
+  },
+  {
+    "platform": "51job", "raw_id": "w3002",
+    "company": "义乌市星野日用品有限公司", "title": "电商运营助理",
+    "salary_raw": "6-10K·13薪", "city": "金华", "district": "义乌市",
+    "experience": "1-3年", "education": "本科",
+    "tags": ["拼多多", "淘宝", "店铺运营"],
+    "jd": "日用百货类目拼多多店铺运营，产业带工厂直供，薪资高于杭州同岗位。",
+    "hr_name": "冯女士", "hr_active": "本周活跃", "published_at": "2026-08-30",
+    "url": "https://example.com/51job/w3002", "status": "待处理"
+  },
+  {
+    "platform": "boss", "raw_id": "b1006",
+    "company": "毛戈平化妆品股份有限公司", "title": "电商运营（内容方向）",
+    "salary_raw": "9-13K·13薪", "city": "杭州", "district": "西湖区",
+    "experience": "3-5年", "education": "本科",
+    "tags": ["小红书", "短视频", "内容运营", "抖音"],
+    "jd": "负责小红书与抖音内容矩阵运营，含选题、脚本、达人对接。要求有美妆内容运营成功案例。",
+    "hr_name": "何女士", "hr_active": "刚刚活跃", "published_at": "今天",
+    "url": "https://example.com/boss/b1006", "status": "已沟通"
+  },
+  {
+    "platform": "liepin", "raw_id": "l2002",
+    "company": "星麦电商（杭州）科技有限公司", "title": "电商运营专员",
+    "salary_raw": "9-13K", "city": "杭州", "district": "滨江区",
+    "experience": "3-5年", "education": "本科",
+    "tags": ["抖音", "直播", "选品"],
+    "jd": "抖音小店与直播间运营，选品、脚本配合、投流跟进。",
+    "hr_name": "林顾问", "hr_active": "今日活跃", "published_at": "2026-09-02",
+    "url": "https://example.com/liepin/l2002", "status": "待处理"
+  },
+  {
+    "platform": "zhilian", "raw_id": "z4002",
+    "company": "杭州悠可化妆品有限公司", "title": "电商运营主管",
+    "salary_raw": "12-18K", "city": "杭州", "district": "滨江区",
+    "experience": "5-10年", "education": "本科",
+    "tags": ["天猫", "团队管理", "推广"],
+    "jd": "带领 3-5 人运营小组负责店铺整体 GMV，要求 5 年以上美妆类目操盘经验。",
+    "hr_name": "黄先生", "hr_active": "本周活跃", "published_at": "2026-08-25",
+    "url": "https://example.com/zhilian/z4002", "status": "待处理"
+  },
+  {
+    "platform": "boss", "raw_id": "b1007",
+    "company": "杭州老板电器股份有限公司", "title": "电商运营助理（京东/天猫）",
+    "salary_raw": "7-11K·14薪", "city": "杭州", "district": "余杭区",
+    "experience": "1-3年", "education": "本科",
+    "tags": ["京东", "天猫", "数据分析", "店铺运营"],
+    "jd": "厨电类目线上店铺运营支持，协助大促活动落地、数据复盘、竞品跟踪。",
+    "hr_name": "曾女士", "hr_active": "3日内活跃", "published_at": "2026-09-01",
+    "url": "https://example.com/boss/b1007", "status": "待处理"
+  },
+  {
+    "platform": "boss", "raw_id": "b1008",
+    "company": "杭州碧橙数字技术股份有限公司", "title": "电商运营助理",
+    "salary_raw": "6-10K", "city": "杭州", "district": "滨江区",
+    "experience": "1-3年", "education": "本科",
+    "tags": ["天猫", "推广", "直通车", "生意参谋"],
+    "jd": "母婴类目代运营，负责店铺日常运营与推广计划执行。",
+    "hr_name": "许先生", "hr_active": "今日活跃", "published_at": "2026-09-02",
+    "url": "https://example.com/boss/b1008", "status": "已收藏"
+  },
+  {
+    "platform": "51job", "raw_id": "w3003",
+    "company": "农夫山泉股份有限公司", "title": "电商运营助理",
+    "salary_raw": "面议", "city": "杭州", "district": "西湖区",
+    "experience": "3-5年", "education": "本科",
+    "tags": ["天猫", "京东", "数据分析"],
+    "jd": "快消品类目线上渠道运营支持，薪资面议，福利完善。",
+    "hr_name": "钟女士", "hr_active": "本周活跃", "published_at": "2026-08-29",
+    "url": "https://example.com/51job/w3003", "status": "待处理"
+  },
+  {
+    "platform": "boss", "raw_id": "b1009",
+    "company": "杭州启航教育咨询有限公司", "title": "电商运营（零基础包就业）",
+    "salary_raw": "8-15K", "city": "杭州", "district": "拱墅区",
+    "experience": "经验不限", "education": "大专",
+    "tags": ["岗前培训", "培训贷"],
+    "jd": "零基础可入职，岗前培训 3 个月，培训费用可分期（培训贷），结业后推荐就业。",
+    "hr_name": "袁老师", "hr_active": "今日活跃", "published_at": "2026-09-03",
+    "url": "https://example.com/boss/b1009", "status": "待处理"
+  },
+  {
+    "platform": "lagou", "raw_id": "g5002",
+    "company": "杭州卷瓜网络有限公司", "title": "店铺运营助理",
+    "salary_raw": "7-10K", "city": "杭州", "district": "西湖区",
+    "experience": "1-3年", "education": "本科",
+    "tags": ["店铺运营", "淘宝", "转化率"],
+    "jd": "时尚电商店铺运营，协助店长做商品运营、活动报名、数据整理。",
+    "hr_name": "范女士", "hr_active": "3日内活跃", "published_at": "2026-09-01",
+    "url": "https://example.com/lagou/g5002", "status": "待处理"
+  },
+  {
+    "platform": "zhilian", "raw_id": "z4003",
+    "company": "杭州中软国际科技服务有限公司", "title": "电商运营（外包驻场）",
+    "salary_raw": "6-9K", "city": "杭州", "district": "余杭区",
+    "experience": "1-3年", "education": "本科",
+    "tags": ["外包", "驻场", "店铺运营"],
+    "jd": "外包驻场至某头部电商平台，负责商家运营支持工作，人力外包形式。",
+    "hr_name": "宋先生", "hr_active": "本周活跃", "published_at": "2026-08-27",
+    "url": "https://example.com/zhilian/z4003", "status": "待处理"
+  },
+  {
+    "platform": "boss", "raw_id": "b1010",
+    "company": "杭州如涵数字科技有限公司", "title": "内容运营助理",
+    "salary_raw": "7-11K·13薪", "city": "杭州", "district": "余杭区",
+    "experience": "1-3年", "education": "本科",
+    "tags": ["小红书", "短视频", "达人", "内容运营"],
+    "jd": "负责达人孵化与内容策划，协助完成选题、拍摄跟进、数据复盘。",
+    "hr_name": "钱女士", "hr_active": "刚刚活跃", "published_at": "今天",
+    "url": "https://example.com/boss/b1010", "status": "已投递"
+  },
+  {
+    "platform": "yupao", "raw_id": "y6002",
+    "company": "杭州优选仓储服务有限公司", "title": "电商打包分拣员",
+    "salary_raw": "200-260元/天", "city": "杭州", "district": "萧山区",
+    "experience": "经验不限", "education": "不限",
+    "tags": ["日结", "兼职"],
+    "jd": "仓库打包、贴单、分拣，日结工资，可兼职。",
+    "hr_name": "罗主管", "hr_active": "今日活跃", "published_at": "2026-09-03",
+    "url": "https://example.com/yupao/y6002", "status": "待处理"
+  },
+  {
+    "platform": "boss", "raw_id": "b1011",
+    "company": "大搜车控股有限公司", "title": "电商运营助理",
+    "salary_raw": "8-12K·13薪", "city": "杭州", "district": "余杭区",
+    "experience": "3-5年", "education": "本科",
+    "tags": ["天猫", "店铺运营", "数据分析", "ROI"],
+    "jd": "汽车后市场类目线上店铺运营，负责流量获取、转化优化、活动复盘。",
+    "hr_name": "曹女士", "hr_active": "今日活跃", "published_at": "2026-09-02",
+    "url": "https://example.com/boss/b1011", "status": "待处理"
+  },
+  {
+    "platform": "liepin", "raw_id": "l2003",
+    "company": "浙江森马服饰电子商务有限公司", "title": "电商运营助理",
+    "salary_raw": "7-10K·13薪", "city": "杭州", "district": "西湖区",
+    "experience": "1-3年", "education": "本科",
+    "tags": ["天猫", "淘宝", "店铺运营", "推广"],
+    "jd": "服装类目线上店铺运营，协助店长完成上新、活动、数据复盘。",
+    "hr_name": "曹顾问", "hr_active": "3日内活跃", "published_at": "2026-09-01",
+    "url": "https://example.com/liepin/l2003", "status": "已收藏"
+  },
+  {
+    "platform": "boss", "raw_id": "b1012",
+    "company": "杭州贝贝集团有限公司", "title": "电商运营助理（母婴）",
+    "salary_raw": "6-9K", "city": "杭州", "district": "余杭区",
+    "experience": "1-3年", "education": "本科",
+    "tags": ["天猫", "拼多多", "店铺运营", "选品"],
+    "jd": "母婴类目店铺运营支持，负责商品运营、活动提报、评价维护。",
+    "hr_name": "严女士", "hr_active": "3日内活跃", "published_at": "2026-09-01",
+    "url": "https://example.com/boss/b1012", "status": "不合适"
+  },
+  {
+    "platform": "51job", "raw_id": "w3004",
+    "company": "上海拉扎斯网络科技有限公司", "title": "电商运营助理",
+    "salary_raw": "9-13K·14薪", "city": "上海", "district": "普陀区",
+    "experience": "3-5年", "education": "本科",
+    "tags": ["天猫", "数据分析", "推广"],
+    "jd": "本地生活电商平台运营，负责商家运营与活动策划。",
+    "hr_name": "汪女士", "hr_active": "今日活跃", "published_at": "2026-09-02",
+    "url": "https://example.com/51job/w3004", "status": "待处理"
+  }
+]

@@ -1,0 +1,40 @@
+# === 敏感 / 内部文件：绝不推送到公开仓库 ===
+AGENTS.md
+DEPLOY.md
+config.json
+config_cloud.json
+nginx_*.conf
+_gen_nginx.py
+_fix.py
+monitor.py
+monitor_config.json
+monitor_snapshot.json
+HANDOFF*.md
+HANDOVER*.md
+docs/
+.workbuddy/
+
+# === 数据 / 生成物 ===
+data/
+*.db
+*.csv
+*.zip
+requests.log
+resume.txt
+
+# === 密钥清单（隐私自检用）===
+secrets_known.txt
+SECRETS.txt
+
+# === Python / 环境 ===
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# === 开发/测试文件 ===
+extractors/
+extension/bossdive/test_*.js
+extension/INSTALL_EDGE.md
+extension/SPEC.md

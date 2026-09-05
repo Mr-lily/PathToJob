@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "多平台岗位快抓",
+  "version": "0.2.0",
+  "description": "浏览招聘网站(Boss直聘/51job/猎聘/智联/鱼泡)时，点开岗位详情后按悬浮按钮即可抓取关键字段到本地，供 job-hub 汇总。只读你手动点开的当前页。",
+  "permissions": ["storage", "downloads", "activeTab", "tabs"],
+  "host_permissions": [
+    "*://*.zhipin.com/*",
+    "*://*.51job.com/*",
+    "*://*.liepin.com/*",
+    "*://*.zhaopin.com/*",
+    "*://*.yupao.com/*",
+    "http://129.211.30.138/*",
+    "http://127.0.0.1/*",
+    "https://pathtojob.icu/*",
+    "https://pathtojob.icu:8765/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.zhipin.com/*",
+        "*://*.51job.com/*",
+        "*://*.liepin.com/*",
+        "*://*.zhaopin.com/*",
+        "*://*.yupao.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "岗位快抓 — 查看已抓记录",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
